@@ -7,7 +7,7 @@ pipeline {
   }
 
   stages {
-    stage('show last commit info'){
+    stage('show last committer info'){
       steps{
         prepareEnv()
       }
